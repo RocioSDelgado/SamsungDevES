@@ -99,8 +99,6 @@ window.addEventListener('load', ()=> {
     function validaCampos() {
         if (usarioBool && emailBool && passBool && passConfirmaBool) {
             alert ('La inscripción ha sido correcta')
-        } else {
-            return
         }
     }
 
